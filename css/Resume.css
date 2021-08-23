@@ -1,0 +1,314 @@
+header{
+	background-color: #A2A8D3; /*Color fondo*/
+}
+
+footer{
+	background-color: #A2A8D3; /*Color fondo*/
+}
+
+body{
+	font-family: 'Frank Ruhl Libre', serif;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+h1, h2, h3{
+	font-family: 'STIX Two Text', serif; /*Cambia la tipografía: El primero desde google fonts, la 2da si no encuentra la 1ra*/
+}
+
+
+
+
+/*Indice*/
+.section-indice{
+	/*border: solid deeppink;*/
+	margin-left: 2px;
+	margin-right: 2px;
+	text-align: center; /*Centra el texto*/
+	font-size: 22px;
+	padding: 2vh;
+	margin-bottom: 4vh;
+}
+
+.indice__item{
+	/*border: solid yellow;*/
+	margin-top: 8px;
+	background-color: #A2A8D3;
+	font-family: 'Tenali Ramakrishna', sans-serif;
+	font-size: 0.9em;
+	font-weight: bolder;
+	border-radius: 17px;
+	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+	width: 100%; /*Para que ocupe todo su espacio*/
+}
+
+.indice__item:hover{ /*Hace que cambien de color cuando el cursor se posiciona encima de ellos*/
+	background-color: #C1A1D3;
+}
+
+.indice__item a:hover{ /*Hace que cambien de color cuando el cursor se posiciona encima de ellos*/
+	border-bottom: solid transparent;
+}
+
+
+
+
+
+/*Formacion academica*/
+.section-FormacionAcad{
+	/*border: solid greenyellow;*/
+	/*padding: 2vh;*/
+	text-align: center; /*Centra el texto*/
+	margin-bottom: 8vh;
+}
+
+.FormacionAcad__titulo{
+	background-color: #87C0CD; /*#C1A1D3;*/
+	padding: 2vh;
+	text-align: left;
+}
+
+.FormacionAcad__texto{
+	padding: 2vh;
+	/*border: solid blue;*/
+	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+	width: 100%; /*Para que ocupe todo su espacio*/
+}
+.FormacionAcad__img{
+	/*border: solid orange;*/
+	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+	width: 100%; /*Para que ocupe todo su espacio*/
+}
+
+
+
+
+
+/*CERTIFICADOS*/
+.section-Certificados{
+	/*border: solid brown;*/
+	display: inline-block;
+	margin-bottom: 2vh;
+}
+
+.Certificados__titulo{
+	/*border: solid rebeccapurple;*/
+	padding: 2vh;
+	background-color: #87C0CD; /*#C1A1D3;*/
+}
+
+.Certificados__imgLinea{
+	/*border: solid #03256C;*/
+	display: inline-block;
+}
+
+.Certificados__item{
+	/*border: solid skyblue;*/
+	display: inline-block;
+	width: 80%;
+	margin-top: 100px;
+	position: relative;
+	bottom: 700px;
+}
+
+.Certificados__item--2{
+	/*border: solid skyblue;*/
+	display: inline-block;
+	width: 80%;
+	margin-top: 100px;
+	position: relative;
+	bottom: 700px;
+	margin-left: 87px;
+}
+
+.Certificados__item__texto{
+	/*border: solid palevioletred;*/
+	display: inline-block;
+}
+
+.Certificados__item__img{
+	/*border: solid green;*/
+	display: inline-block;
+}
+
+
+
+
+/*EXPERIENCIA*/
+.section-Experiencia{
+	/*border: solid gray;*/
+	text-align: center; /*Centra el texto*/
+	margin-bottom: 8vh;
+
+}
+
+.Experiencia__titulo{
+	/*border: solid gold;*/
+	background-color: #87C0CD; 
+	padding: 2vh;
+	text-align: left; 
+}
+
+.Experiencia__item{
+	/*border: solid darkorange;*/
+	padding: 2vh;
+	margin-top: 22px;
+}
+
+.Experiencia__item__imgNum{
+	/*border: solid deeppink;*/
+	display: inline-block;
+	width: 100%;
+}
+
+.Experiencia__item__imgNum--dos{
+	/*border: solid deeppink;*/
+	display: inline-block;
+	width: 100%;
+}
+
+.Experiencia__item__img{
+	/*border: solid blue;*/
+	display: inline-block;
+	width: 100%;
+}
+
+.Experiencia__item__img img{
+	width: 100%;
+}
+
+.Experiencia__item__video{
+	/*border: solid floralwhite;*/
+	display: inline-block;
+	width: 100%;
+}
+
+.Experiencia__item__video iframe{
+	width: 100%;
+}
+
+.Experiencia__item__texto{
+	/*border: solid lightblue;*/
+	display: inline-block;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+/*------------------------------------------------------------------*/
+/*MEDIA QUERIES*/
+	/*Permiten cambiar ciertas propiedades de acuerdo al tamaño del dispositivo
+	OJO: Lo que no se especifique o cambie, se conservará como en las primeras líneas de codigo*/
+	/*Sintaxis:  */
+
+
+@media only screen and (min-width:  992px){
+
+/*Indice*/
+.section-indice{
+	font-size: 28px;
+}
+
+.indice__item{
+	margin-top: 8px;
+	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+	width: 30%; /*Para que ocupe todo su espacio*/
+}
+
+
+
+
+/*Formacion academica*/
+.FormacionAcad__texto{
+	width: 49%; /*Para que ocupe todo su espacio*/
+	position: relative;
+	bottom: 20vh;
+}
+.FormacionAcad__img{
+	width: 49%; /*Para que ocupe todo su espacio*/
+	margin-top: 10px;
+}
+
+
+
+
+
+/*CERTIFICADOS*/
+.section-Certificados{
+	display: inline-block;
+}
+
+.Certificados__titulo{
+	background-color: #87C0CD; /*#C1A1D3;*/
+}
+
+.Certificados__imgLinea{
+	display: inline-block;
+}
+
+.Certificados__item{
+	display: inline-block;
+	width: 80%;
+	margin-top: 100px;
+	position: relative;
+	bottom: 700px;
+}
+
+.Certificados__item--2{
+	display: inline-block;
+	width: 80%;
+	margin-top: 100px;
+	position: relative;
+	bottom: 700px;
+	margin-left: 87px;
+}
+
+.Certificados__item__texto{
+	display: inline-block;
+}
+
+.Certificados__item__img{
+	display: inline-block;
+}
+
+
+/*EXPERIENCIA*/
+.Experiencia__item__imgNum{
+	display: inline-block;
+	width: 10%;
+	position: relative;
+	bottom: 10vh;
+	margin-right: 20px;
+}
+
+.Experiencia__item__imgNum--dos{
+	display: inline-block;
+	width: 10%;
+	position: relative;
+	bottom: 40vh;
+	margin-right: 20px;
+}
+
+.Experiencia__item__img{
+	width: 40%;
+	margin-right: 20px;
+}
+
+.Experiencia__item__video{
+	width: 40%;
+	margin-right: 20px;
+}
+
+.Experiencia__item__texto{
+	width: 40%;
+	position: relative;
+	bottom: 5vh;
+}
+
+
+
+

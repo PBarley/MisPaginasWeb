@@ -1,0 +1,153 @@
+.contacto h1{
+	/*font-family: 'Amatic SC', cursive; /*Cambia la tipografía: El primero desde google fonts, la 2da si no encuentra la 1ra*/
+ 	font-weight: bolder;
+ 	text-align: center;
+ 	font-size: 40px;
+}
+
+label{
+	/*border: solid orange;*/
+	font-size: 2.3vh;
+	font-weight: bolder;
+	display: inline-block;
+	width: 100%;
+	margin-top: 4px;
+}
+
+
+
+
+.contacto{
+	/*border: solid green;*/
+	padding: 8px;
+}
+
+.contacto__text-img{
+	/*border: solid yellow;*/
+	text-align: justify;
+	font-size: 17px;
+	margin-bottom: 20px;
+	display: inline-block;
+	width: 100%;
+}
+
+.contacto__img{
+	/*border: solid hotpink;*/
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+.contacto__img img{
+	width: 300px;
+	height: 300px;
+	clip-path: circle(50% at 50% 50%);
+}
+
+.nota {
+	font-weight: bolder;
+	font-size: 0.8em;
+}
+
+
+
+
+
+input{
+	display: inline-block;
+	width: 100%;
+}
+textarea{
+	display: inline-block;
+	width: 100%;
+}
+.contacto__form{
+	/*border: solid blue;*/
+	display: inline-block;
+	width: 100%;
+}
+
+.contacto__form__name{
+	/*border: solid red;*/
+}
+
+.contacto__form__name__first-name{
+	/*border: solid brown;*/
+	display: inline-block;
+	width: 49%;
+}
+
+.contacto__form__name__first-name label{
+	font-size: 0.7em;
+	font-weight: normal;
+}
+
+.contacto__form__name__last-name{
+	/*border: solid skyblue;*/
+	display: inline-block;
+	width: 50%;
+}
+
+.contacto__form__name__last-name label{
+	font-size: 0.7em;
+	font-weight: normal;
+}
+
+/*
+.contacto__form_email{
+	border: solid black;
+}
+
+.contacto__form__extra{
+	border: solid pink;
+}
+
+.contacto__form__mensaje{
+	border: solid darkgray;
+}
+*/
+
+.contacto__form__bottonToSend{
+	/*border: solid gold;*/
+	text-align: center;
+	margin-top: 10px;
+	display: inline-block;
+	position: relative;
+	left: 44%;
+}
+
+.contacto__form__bottonToSend input{
+	padding: 3px;
+	text-align: center;
+	font-weight: bolder;
+}
+
+
+
+
+/*------------------------------------------------------------------*/
+/*MEDIA QUERIES*/
+	/*Permiten cambiar ciertas propiedades de acuerdo al tamaño del dispositivo
+	OJO: Lo que no se especifique o cambie, se conservará como en las primeras líneas de codigo*/
+	/*Sintaxis:  */
+
+
+@media only screen and (min-width:  992px){
+	.contacto__text-img{
+	width: 49%;
+	font-size: 19px;
+	}
+
+	.contacto__texto{
+	/*border: solid greenyellow;*/
+	padding: 3vh;
+	}
+
+	.contacto__form{
+	width: 49%;
+	margin-left: 2.2vh;
+	position: relative;
+	bottom: 25vh;
+	}
+}
+	

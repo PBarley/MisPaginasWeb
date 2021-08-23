@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!-- Atributo, con funcion igual a un metatag -->
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content=“ Mi primera página web en el curso de diseño web. ”/>
+	<!--Relaciona al html con el css-->
+	<link  rel="stylesheet" type="text/css" href="css/styles.css">	
+	<!--Relaciona al html con el HTML.CSS.
+		Ojo: Primero va la hoja de estilos general-->
+		<link  rel="stylesheet" type="text/css" href="css/Mas.css">
+
+		<!--Google Fonts: Para cambiar la tipografia-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@500&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+
+		<!--Shortcut icon-->
+		<link rel="shortcut icon" href="img/Icono_moreAboutMe.png">
+
+		<!-- Nombre de la p+agina --> 
+		<title>Más sobre mí</title>	
+
+
+	</head>
+	<body>
+		<!--Header-->
+		<header>
+
+			<!--Nav-->
+			<nav> 
+				<ul>
+					<!-- "miTrabajo.html" -> Para redireccionar a otra pagina -->
+					<li><a href="AboutMe.html">Acerca de mi</a></li>
+					<li><a href="Resume.html">Resume</a></li>
+					<li><a href="Contacto.html">Contacto</a></li>
+					<li><a href="Mas.html">Más sobre mí</a></li>
+				</ul>
+			</nav>
+
+			<!-- Logo -->
+			<!--Las imagenes las guardamos dentro de un contenerdor y así, solo se mofica el tamaño del contenedor y no la imaen, siendo así más sencillo manipularlas-->
+			<div class="logo">
+				<a href="index.html">
+					<!--svg logo-->
+					<!--comando para identar: ctrl+ship+p -> Indentation:Reident Lines-->
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-box" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+						<polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3" />
+						<line x1="12" y1="12" x2="20" y2="7.5" />
+						<line x1="12" y1="12" x2="12" y2="21" />
+						<line x1="12" y1="12" x2="4" y2="7.5" />
+					</svg>
+				</a>
+
+
+			</div>
+
+		</header>
+
+
+		<!--Main-->
+		<main>
+			<div class="hobbies-datos">
+				<h1>Hobbies & Datos Interesantes</h1>
+
+				<div class="hobbies-datos__pintura">
+					<div class="hobbies-datos__pintura__img">
+						<img src="img/pintura.jpg" alt="">
+					</div>
+
+					<div class="hobbies-datos__pintura__texto">
+						<h3>Pintar y dibujar</h3>
+						<p>Estas actividades las hago desde hace tiempo y me gustan mucho. Incluso se han presentando en las instituciones donde he estudiado.</p>
+					</div>
+				</div>
+
+				<div class="hobbies-datos__guitarra-ukelele">
+					<div class="hobbies-datos__guitarra-ukelele__img">
+						<img src="img/guitarra.2.jpg" alt="">
+					</div>
+
+					<div class="hobbies-datos__guitarra-ukelele__texto">
+						<h3>Tocar la guitarra y el ukelele</h3>
+						<p>Me gusta mucho la música, por lo que actualmente estoy aprendiendo a tocar estos dos instrumentos musicales.</p>
+					</div>
+				</div>
+
+				<div class="hobbies-datos__leer">
+					<div class="hobbies-datos__leer__img">
+						<img src="img/leer.jpg" alt="">
+					</div>
+
+					<div class="hobbies-datos__leer__texto">
+						<h3>Leer</h3>
+						<p>Me gusta leer libros de diversos temas (excepto terror) y, algunos comics y mangas.</p>
+					</div>
+				</div>
+
+				<div class="hobbies-datos__cocinarPost">
+					<div class="hobbies-datos__cocinarPost__img">
+						<img src="img/cocinar.jpg" alt="">
+					</div>
+
+					<div class="hobbies-datos__cocinarPost__texto">
+						<h3>Cocinar postres</h3>
+						<p>Este es un nuevo hobbie que tengo. Realizo diversas recetas e intento mejorar.</p>
+					</div>
+				</div>
+
+				<div class="hobbies-datos__nadar">
+					<div class="hobbies-datos__nadar__img">
+						<img src="img/nadar.jpg" alt="">
+					</div>
+
+					<div class="hobbies-datos__nadar__texto">
+						<h3>Nadar</h3>
+						<p>Practiques este deporte durante años y formé parte de un equipo. Actualmente ya no lo practico, pero me gusta mucho.</p>
+					</div>
+				</div>
+
+				<div class="hobbies-datos__deportes">
+					<div class="hobbies-datos__deportes__img">
+						<img src="img/deportes.jpg" alt="">
+					</div>
+
+					<div class="hobbies-datos__deportes__texto">
+						<h3>Deportes</h3>
+						<p>Me gustan mucho los deportes (aunque algunos más que otros), por lo que en un futuro me gustaría entrenar algunos de ellos.</p>
+					</div>
+				</div>
+			</div>
+
+
+
+			<section class="presentacion section-padding">
+				<div class="presentacion__texto">
+					
+				</div>
+
+				<div class="presentacion__imagen">
+					
+				</div>
+			</section>
+
+
+			<!-- <a name="*NOMBRE_QUE_DIMOS_ANTES*"></a>-> Para redireccionar dentro de la misma pagina -->
+			<a name="historia"></a>
+			<section class="historia section-padding">
+			
+			</section>
+
+			<section class="paisaje">
+			</section>
+		</main>
+
+
+		<!--Footer-->
+		<footer>
+			<!--Metodologia BEN: Utilizamos class-->
+			<ul class="footer__redes-sociales">
+				<!--Facebook-->
+				<li>
+					<!-- target="_blank" ->  Me parece que abre esa redireccion en una nueva pestaña-->
+					<a href="https://www.facebook.com/" target="_blank">
+						<svg xmlns="http://www.w3.org/2000/svg%22 class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+						</svg>
+					</a>
+				</li>
+
+				<!--Instagram-->
+				<li>
+					<a href="https://www.instagram.com/" target="_blank">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<rect x="4" y="4" width="16" height="16" rx="4" />
+							<circle cx="12" cy="12" r="3" />
+							<line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+						</svg>
+					</a>
+				</li>
+
+
+				<!--Twitter-->
+				<li>
+					<a href="https://twitter.com/?lang=en" target="_blank">
+						<svg xmlns="http://www.w3.org/2000/svg%22 class="icon icon-tabler icon-tabler-brand-twitter" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+						</svg>
+					</a>
+				</li>
+
+			</ul>
+		</footer>
+
+	</body>
+
+	</html>

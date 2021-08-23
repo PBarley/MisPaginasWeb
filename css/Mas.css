@@ -1,0 +1,245 @@
+header{
+	background-color: #A2A8D3; /*Color fondo*/
+}
+
+footer{
+	background-color: #A2A8D3; /*Color fondo*/
+}
+
+p{
+	margin-top: 4px;
+	font-size: 0.8em;
+}
+
+h1{
+	text-align: center;
+	font-size: 38px;
+	margin-bottom: 10px;
+}
+
+.hobbies-datos{
+	/*border: solid gold;*/
+	padding: 15px;
+}
+
+.hobbies-datos__pintura{
+	/*border: solid deeppink;*/
+	background-color: #FADBD8;
+	padding: 6px;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 11px;
+	border-radius: 17px; /*Da un redondeo a las esquinas*/
+	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+	width: 100%; /*Para que ocupe todo su espacio*/
+}
+
+.hobbies-datos__pintura__img{
+	/*border: solid skyblue;*/
+	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+	width: 100%; /*Para que ocupe todo su espacio*/
+}
+
+.hobbies-datos__pintura__img img{
+	width: 100%; /*Para que ocupe todo su espacio*/
+	clip-path: circle(50% at 50% 50%);
+}
+
+/*.hobbies-datos__pintura__texto{
+	border: solid yellow;
+}*/
+
+
+
+.hobbies-datos__guitarra-ukelele{
+	/*border: solid orange;*/
+	background-color: #EBDEF0;
+	padding: 6px;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 11px;
+	border-radius: 17px; /*Da un redondeo a las esquinas*/
+	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+	width: 100%; /*Para que ocupe todo su espacio*/
+}
+
+.hobbies-datos__guitarra-ukelele__img{
+	/*border: solid green;*/
+	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+	width: 100%; /*Para que ocupe todo su espacio*/
+
+}
+
+.hobbies-datos__guitarra-ukelele__img img{
+	width: 100%; /*Para que ocupe todo su espacio*/
+	clip-path: circle(50% at 50% 50%);
+}
+
+/*.hobbies-datos__guitarra-ukelele__texto{
+	border: solid greenyellow;
+}*/
+
+
+
+.hobbies-datos__leer{
+	/*border: solid blueviolet;*/
+	background-color: #E8DAEF;
+	padding: 6px;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 11px;
+	border-radius: 17px; /*Da un redondeo a las esquinas*/
+	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+	width: 100%; /*Para que ocupe todo su espacio*/
+}
+
+.hobbies-datos__leer__img{
+	/*border: solid pink;*/
+	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+	width: 100%; /*Para que ocupe todo su espacio*/
+}
+
+.hobbies-datos__leer__img img{
+	width: 100%; /*Para que ocupe todo su espacio*/
+	clip-path: circle(50% at 50% 50%);
+}
+
+/*.hobbies-datos__leer__texto{
+	border: solid darkblue;
+}*/
+
+
+
+.hobbies-datos__cocinarPost{
+	/*border: solid red;*/
+	background-color: #E8DAEF;
+	padding: 6px;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 11px;
+	border-radius: 17px; /*Da un redondeo a las esquinas*/
+	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+	width: 100%; /*Para que ocupe todo su espacio*/
+}
+
+.hobbies-datos__cocinarPost__img{
+	/*border: solid hotpink;*/
+	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+	width: 100%; /*Para que ocupe todo su espacio*/
+}
+
+.hobbies-datos__cocinarPost__img img{
+	width: 100%; /*Para que ocupe todo su espacio*/
+	clip-path: circle(50% at 50% 50%);
+}
+
+/*.hobbies-datos__cocinarPost__texto{
+	border: solid purple;
+}*/
+
+
+
+.hobbies-datos__nadar{
+	/*border: solid blue;*/
+	background-color: #EBDEF0;
+	padding: 6px;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 11px;
+	border-radius: 17px; /*Da un redondeo a las esquinas*/
+	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+	width: 100%; /*Para que ocupe todo su espacio*/
+}
+
+.hobbies-datos__nadar__img{
+	/*border: solid brown;*/
+	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+	width: 100%; /*Para que ocupe todo su espacio*/
+}
+
+.hobbies-datos__nadar__img img{
+	width: 100%; /*Para que ocupe todo su espacio*/
+	clip-path: circle(50% at 50% 50%);
+}
+
+/*.hobbies-datos__nadar__texto{
+	border: solid indianred;
+}*/
+
+
+
+.hobbies-datos__deportes{
+	/*border: solid black;*/
+	background-color: #FADBD8;
+	padding: 6px;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 11px;
+	border-radius: 17px; /*Da un redondeo a las esquinas*/
+	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+	width: 100%; /*Para que ocupe todo su espacio*/
+}
+
+.hobbies-datos__deportes__img{
+	/*border: solid rebeccapurple;*/
+	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+	width: 100%; /*Para que ocupe todo su espacio*/
+}
+
+.hobbies-datos__deportes__img img{
+	width: 100%; /*Para que ocupe todo su espacio*/
+	clip-path: circle(50% at 50% 50%);
+}
+
+/*.hobbies-datos__deportes__texto{
+	border: solid turquoise;
+}*/
+
+
+
+
+/*------------------------------------------------------------------*/
+/*MEDIA QUERIES*/
+	/*Permiten cambiar ciertas propiedades de acuerdo al tamaño del dispositivo
+	OJO: Lo que no se especifique o cambie, se conservará como en las primeras líneas de codigo*/
+	/*Sintaxis:  */
+
+
+	@media only screen and (min-width:  992px){
+		.hobbies-datos__pintura{
+			font-size: 25px;
+			width: 32%; /*Para que ocupe todo su espacio*/
+			margin-bottom: 10px;
+			margin-right: 1vh;
+		}
+
+		.hobbies-datos__guitarra-ukelele{
+			font-size: 25px;
+			width: 32%; /*Para que ocupe todo su espacio*/
+			margin-bottom: 10px;
+			margin-right: 1vh;	
+		}
+
+		.hobbies-datos__leer{
+			font-size: 25px;
+			width: 32%; /*Para que ocupe todo su espacio*/
+			margin-bottom: 10px;
+		}
+
+		.hobbies-datos__cocinarPost{
+			font-size: 25px;
+			width: 32%; /*Para que ocupe todo su espacio*/
+			margin-right: 1vh;
+		}
+
+		.hobbies-datos__nadar{
+			font-size: 25px;
+			width: 32%; /*Para que ocupe todo su espacio*/
+			margin-right: 1vh;
+		}
+
+		.hobbies-datos__deportes{
+			font-size: 25px;
+			width: 32%; /*Para que ocupe todo su espacio*/
+		}
+	}

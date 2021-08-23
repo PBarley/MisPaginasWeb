@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!-- Atributo, con funcion igual a un metatag --> 
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content=“ Mi primera página web en el curso de diseño web. ”/>
+	<!--Relaciona al html con el css-->
+	<link  rel="stylesheet" type="text/css" href="css/styles.css">	
+	<!--Relaciona al html con el AboutMe.CSS.
+		Ojo: Primero va la hoja de estilos general-->
+		<link  rel="stylesheet" type="text/css" href="css/AboutMe.css">
+
+		<!--Google Fonts: Para cambiar la tipografia-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@500&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+		<!--Font del cuerpo-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+
+		<!--Font de los titulos h3 de la secciones habilidades y metas-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+
+
+		<!--Shortcut icon-->
+		<link rel="shortcut icon" href="img/Icono_AboutMe.png">
+
+		<!-- Nombre de la p+agina --> 
+		<title>Acerca de mi</title>	
+
+
+
+
+	</head>
+	<body>
+		<!--Header-->
+		<header>
+
+			<!--Nav-->
+			<nav> 
+				<ul>
+					<!-- "miTrabajo.html" -> Para redireccionar a otra pagina -->
+					<li><a href="AboutMe.html">Acerca de mi</a></li>
+					<li><a href="Resume.html">Resume</a></li>
+					<li><a href="Contacto.html">Contacto</a></li>
+					<li><a href="Mas.html">Más sobre mí</a></li>
+				</ul>
+			</nav>
+
+			<!-- Logo -->
+			<!--Las imagenes las guardamos dentro de un contenerdor y así, solo se mofica el tamaño del contenedor y no la imaen, siendo así más sencillo manipularlas-->
+			<div class="logo">
+				<a href="index.html">
+					<!--svg logo-->
+					<!--comando para identar: ctrl+ship+p -> Indentation:Reident Lines-->
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-box" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+						<polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3" />
+						<line x1="12" y1="12" x2="20" y2="7.5" />
+						<line x1="12" y1="12" x2="12" y2="21" />
+						<line x1="12" y1="12" x2="4" y2="7.5" />
+					</svg>
+				</a>
+
+
+			</div>
+
+		</header>
+
+
+		<main>
+			<section class="AboutMe section-introduccion">
+
+				<div class="introduccion__imagen">
+					<img src="img/Me_princ.pag.jpg" alt="">
+				</div>
+
+				<div class="introduccion__texto">
+					<h1>Hola yo soy Paola B.<br></h1>
+					<h3>Una estudiante mexicana de la carrera de ingeniería en computación en la UNAM, que busca poner en práctica sus conocimientos, mediante el desarrollo de proyectos.<br></h3>
+					<p>Y acontinuacion te mostrare un poco sobre mis:<br></p>
+					<div class="introduccion__texto__subIndice">
+
+						<div class="Indice__item">
+							<a href="#HabProfesional">Habilidades Profesionales</a>
+						</div>
+
+						<div class="Indice__item">
+							<a href="#HabPersonal">Habilidades Personales</a>
+						</div>
+
+						<div class="Indice__item">
+							<a href="#Goal">Metas</a>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			
+			<section class="AboutMe section-habilidades">		
+				<div class="habilidades__Profesionales">
+					<a name="HabProfesional"></a> <!--La reedireccion se coloca aquí para que cuando se este en un dispositivo pequeño, el usuario quede justo a la altura correcta-->
+					<div class="habilidades__Profesionales__imagen">
+						<img src="https://data.whicdn.com/images/313344397/original.jpg?t=1527960285" height="360 px">
+					</div>
+
+					<div class="habilidades__Profesionales__texto">	
+						<h3>HABILIDADES PROFESIONALES</h3>
+						<div class="habilidades__Profesionales__texto__lista">
+							<ul>
+								<li>Aprendizaje continuo <br></li>
+								<li>Capacidad de adaptación <br></li>
+								<li>Comunicación eficaz <br></li>
+								<li>Manejo de NetBeans IDE y Arduino IDE <br></li>
+								<li>Trabajo en equipo <br></li>	
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				
+				<div class="habilidades__Personales">
+					<a name="HabPersonal"></a> <!--La reedireccion se coloca aquí para que cuando se este en un dispositivo pequeño, el usuario quede justo a la altura correcta-->
+					<div class="habilidades__Personales__imagen">	
+						<img src="https://www.medicalwebexperts.com/blog/content/uploads/2016/06/Women_in_HealthCare_Marketing.png" height="360 px">
+					</div>
+
+					<div class="habilidades__Personales__texto">	
+						<h3>HABILIDADES PERSONALES</h3>
+						<div class="habilidades__Personales__texto__lista">
+							<ul>
+								<li>Autodidacta <br></li>
+								<li>Dedicada<br></li>
+								<li>Espíritu creativo<br></li>
+								<li>Positiva<br></li>
+								<li>Responsable<br></li>	
+							</ul>
+						</div>
+					</div>
+				</div>		
+			</section>
+
+
+			
+			<a name="Goal"></a>
+			<section class="AboutMe section-metas">
+				<div class="metas__img">	
+					<img src="img/metas.jpg" alt="">
+				</div>
+
+				<div class="metas__texto">	
+					<h3>METAS</h3>
+					<p>	Aprender sobre la aplicación de la tecnología, de modo que en un futuro me permitan desarrollar proyectos beneficos para la sociedad.</p>
+				</div>
+			</section>
+
+		</main>
+
+
+		<!--Footer-->
+		<footer>
+			<!--Metodologia BEN: Utilizamos class-->
+			<ul class="footer__redes-sociales">
+				<!--Facebook-->
+				<li>
+					<!-- target="_blank" ->  Me parece que abre esa redireccion en una nueva pestaña-->
+					<a href="https://www.facebook.com/" target="_blank">
+						<svg xmlns="http://www.w3.org/2000/svg%22 class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+						</svg>
+					</a>
+				</li>
+
+				<!--Instagram-->
+				<li>
+					<a href="https://www.instagram.com/" target="_blank">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<rect x="4" y="4" width="16" height="16" rx="4" />
+							<circle cx="12" cy="12" r="3" />
+							<line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+						</svg>
+					</a>
+				</li>
+
+
+				<!--Twitter-->
+				<li>
+					<a href="https://twitter.com/?lang=en" target="_blank">
+						<svg xmlns="http://www.w3.org/2000/svg%22 class="icon icon-tabler icon-tabler-brand-twitter" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+						</svg>
+					</a>
+				</li>
+
+			</ul>
+		</footer>
+
+	</body>
+
+	</html>

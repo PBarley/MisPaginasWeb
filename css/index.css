@@ -1,0 +1,149 @@
+/*HOJA DE ESTILOS ESPECIAL PARA EL INDEX*/
+/*Index.html*/
+
+
+/*main{
+	border: solid orange;}*/
+
+
+
+.section-padding {
+	/*border: solid blue;*/
+
+	/*Sera como una clase que aplique la propiedad padding.
+	Así, para todos los elementos que yo quiera que tengan un padding de 22px, solo debo de agregarle esta clase. 
+	Y es una manera de definir un padding tanto para presenntacion como para historia*/
+	/*padding: 22px;*/
+	/*Para usarla, nos diriguimos al html y en la seccion donde la queremos emplear, le agregamos la clase.*/
+}
+
+.presentacion__texto{
+	/*border: solid greenyellow;*/
+	font-size: 20px;
+	padding: 17px;
+	display: inline-block;
+	width: 100%;
+	text-align: center; /*Centra el texto*/
+} 
+
+.presentacion__texto h1{
+	/*border: solid yellow;*/
+	padding: auto;
+} 
+
+.presentacion__texto h2{
+	/*border: solid deeppink;
+	display: inline-block;
+	width: 100%;*/
+	margin-bottom: 6px;
+	font-size: 0.8em;
+} 
+
+.presentacion__texto p{
+	/*border: solid darkorange;*/
+	/*display: inline-block;
+	width: 100%;*/
+	font-size: 0.7em;
+	/*text-align: justify; */
+} 
+
+.presentacion__img-pricipal{
+	/*border: solid violet;*/
+	display: inline-block;
+	position: relative;
+	left: 20vh;
+	width: 60%;
+}
+
+.presentacion__img-pricipal img{ /*Se aplicará solo a las imagenes dentro de ese div*/
+	width: 100%; /*Indica que la imagen va a ocupar el 100% del contenedor que lo contiene, en este caso el div.presentacion__imagen*/
+	clip-path: circle(50% at 50% 50%);
+}
+
+
+
+
+
+.section-LittleMe{
+	/*border: solid indianred;*/
+	display: inline-block;
+	width: 100%;
+	text-align: justify; 
+	margin-top: 2px;
+	background-color: #113F67;
+	padding: 2vh;
+}
+
+.presentacion__imgMe{
+	margin-top: 10px;
+	/*border: solid yellow;
+	
+	display: inline-block;*/
+}
+
+.presentacion__textoMe{
+	color: #F3F9FB;
+	/*border: solid brown;
+	display: inline-block;
+	width: 100%;*/
+}
+
+.presentacion__imgMe img{
+	/*border: solid skyblue;*/
+	width: 100%;
+	clip-path: circle(50% at 50% 50%);
+}
+
+
+
+
+/*------------------------------------------------------------------*/
+/*MEDIA QUERIES*/
+	/*Permiten cambiar ciertas propiedades de acuerdo al tamaño del dispositivo
+	OJO: Lo que no se especifique o cambie, se conservará como en las primeras líneas de codigo*/
+	/*Sintaxis:  */
+
+
+@media only screen and (min-width:  992px){
+	
+	/*Presentacion*/
+	.presentacion__texto{
+	font-size: 24px;
+	width: 40%;
+	margin-left: 5%;
+	position: relative;
+	bottom: 40vh;
+} 
+
+.presentacion__img-pricipal{
+	left: 20vh;
+	width: 35%;
+}
+	
+
+
+
+
+/*Little about me*/
+
+/*.section-LittleMe{
+	background-color: #113F67;
+}*/
+
+.presentacion__imgMe{
+	width: 44%;
+	margin-left: 2%;
+}
+
+.presentacion__textoMe{
+	font-size: 20px;
+	width: 44%;
+	margin-left: 52%;
+	position: relative;
+	bottom: 60vh;
+	/*color: #F3F9FB;*/
+}
+
+
+
+

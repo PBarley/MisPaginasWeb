@@ -1,0 +1,262 @@
+ body{
+ 	font-family: 'Frank Ruhl Libre', serif;
+ 	font-family: 'Tenali Ramakrishna', sans-serif;
+ }
+
+
+
+ p{
+ 	font-size: 0.95em;
+ }
+
+
+
+ li{
+ 	font-size: 0.95em;
+ }
+
+
+
+
+ .section-introduccion{
+ 	/*border: solid deeppink;*/
+ 	padding: 7px;
+
+ }
+
+ .introduccion__texto h1, .introduccion__texto h3{
+ 	font-family: 'STIX Two Text', serif;
+ }	
+
+ .introduccion__texto h3{
+ 	font-size: 0.8em;
+ }
+
+ .introduccion__texto{
+ 	/*border: solid darkblue;*/
+ 	text-align: center; /*Centra el texto*/
+ 	font-size: 20px;
+ 	display: inline-block;
+ 	width: 100%;
+ }
+
+ /*.introduccion__texto__subIndice{
+ 	border: solid darkorange;
+ }*/
+
+ .introduccion__texto a{
+ 	font-size: 0.95em;
+ }
+
+ .Indice__item{
+ 	/*border: solid greenyellow;*/
+ 	display: inline-block;
+ 	width: 100%;
+
+ }
+
+ .introduccion__imagen{
+ 	/*border: solid indianred;*/
+ 	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+ 	width: 100%; /*Para que ocupe todo su espacio*/
+ }
+
+ .introduccion__imagen img{
+ 	width: 100%; /*Para que ocupe todo su espacio*/
+ 	clip-path: circle(50% at 50% 50%);
+ }
+
+
+
+
+ .section-habilidades{
+ 	/*border: solid yellow;*/
+ 	text-align: center; /*Centra el texto*/
+ 	font-size: 19px;
+ 	padding: 7px;
+ 	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+ 	width: 100%; /*Para que ocupe todo su espacio*/
+
+ }
+
+ .section-habilidades h3, .section-metas h3{
+ 	font-family: 'Amatic SC', cursive; /*Cambia la tipografía: El primero desde google fonts, la 2da si no encuentra la 1ra*/
+ 	font-weight: bolder;
+ 	font-size: 1.4em;
+ 	text-decoration: underline;
+ }
+
+ .habilidades__Profesionales{
+ 	/*border: solid blueviolet;*/
+ 	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+ 	width: 100%; /*Para que ocupe todo su espacio*/
+ 	margin-bottom: 8px;
+ 	background-color: #A9CCE3;
+ }
+
+ .habilidades__Profesionales__imagen{
+ 	/*border: solid pink;*/
+ 	padding: 4px;
+ }
+
+ .habilidades__Profesionales__imagen img{
+ 	width: 100%; /*Para que ocupe todo su espacio*/
+ 	clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+ }
+
+ /*.habilidades__Profesionales__texto{
+ 	border: solid skyblue;
+ }*/
+
+ .habilidades__Personales__texto__lista{
+ 	/*border: solid aliceblue;*/
+ 	margin-top: 5px;
+ 	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+ }
+
+ .habilidades__Personales{
+ 	/*border: solid orange;*/
+ 	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+ 	width: 100%; /*Para que ocupe todo su espacio*/
+ 	margin-bottom: 8px;
+ 	background-color: #AED6F1;
+ }
+
+ .habilidades__Personales__imagen{
+ 	/*border: solid green;*/
+ 	padding: 4px;
+ }
+
+ .habilidades__Personales__imagen img{
+ 	width: 100%; /*Para que ocupe todo su espacio*/
+ 	clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+ }
+
+/* .habilidades__Personales__texto{
+ 	border: solid brown;
+ }*/
+
+ .habilidades__Profesionales__texto__lista{
+ 	/*border: solid aliceblue;*/
+ 	margin-top: 5px;
+ 	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+ }
+
+
+
+
+
+ .section-metas{
+ 	/*border: solid darkgray;*/
+ 	text-align: center; /*Centra el texto*/
+ 	font-size: 19px;
+ 	padding: 7px;
+ }
+
+ .metas__img{
+ 	/*border: solid gold;*/
+ 	padding: 4px;
+ 	background-color: #A3E4D7;
+ 	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+ 	width: 100%; /*Para que ocupe todo su espacio*/
+ }
+
+ .metas__img img{
+ 	width: 100%; /*Para que ocupe todo su espacio*/
+ 	clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+ }
+
+ .metas__texto{
+ 	/*border: solid purple;*/
+ 	background-color: #A3E4D7;
+ 	display: inline-block; /*Ocupa solo su espacio. Y con la siguiente linea se hará de bloque pero en un futuro nos permitira colocar una a lado de otra*/
+ 	width: 100%; /*Para que ocupe todo su espacio*/
+ }
+
+
+
+
+
+
+
+
+ /*MEDIA QUERIES*/
+	/*Permiten cambiar ciertas propiedades de acuerdo al tamaño del dispositivo
+	OJO: Lo que no se especifique o cambie, se conservará como en las primeras líneas de codigo*/
+	/*Sintaxis:  */
+
+
+	@media only screen and (min-width:  992px){
+
+		.section-habilidades h3, .section-metas h3{
+			font-family: 'Amatic SC', cursive; /*Cambia la tipografía: El primero desde google fonts, la 2da si no encuentra la 1ra*/
+			font-weight: bolder;
+		}
+
+		.introduccion__texto{
+			/*border: solid darkblue;*/
+			width: 49%;
+			position: relative;
+			bottom: 28vh;
+			/*font-size: 20px;*/
+			font-size: 26px;
+		}
+
+		.introduccion__imagen{
+			/*border: solid indianred;*/
+			width: 49%; /*Para que ocupe todo su espacio*/
+
+		}
+
+		.introduccion__imagen img{
+			width: 100%; /*Para que ocupe todo su espacio*/
+			clip-path: circle(73.6% at 94% 51%);
+		}
+
+
+
+
+		.section-habilidades{
+			/*border: solid yellow;*/
+			background-color: #AED6F1;
+			margin-top: 8px;
+			font-size: 22px;
+		}
+
+		.habilidades__Profesionales{
+			/*border: solid blueviolet;*/
+			width: 49%; /*Para que ocupe todo su espacio*/
+			background-color: transparent;
+
+		}
+
+		.habilidades__Personales{
+			/*border: solid orange;*/
+			width: 49%; /*Para que ocupe todo su espacio*/
+			background-color: transparent;
+		}
+
+		.section-metas{
+			/*border: solid darkgray;*/
+			background-color: #A3E4D7;
+			margin-top: 12px;
+			margin-bottom: 10px;
+			font-size: 26px;
+		}
+
+		.metas__img{
+			/*border: solid gold;*/
+			background-color: transparent;
+			width: 45%; /*Para que ocupe todo su espacio*/
+		}
+
+		.metas__texto{
+			/*border: solid purple;*/
+			background-color: transparent;
+			width: 49%; /*Para que ocupe todo su espacio*/
+			position: relative;
+			bottom: 40vh;
+			margin-left: 14px;
+		}
+	}
+

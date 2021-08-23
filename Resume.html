@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<!-- Atributo, con funcion igual a un metatag -->
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content=“ Mi primera página web en el curso de diseño web. ”/>
+	<!--Relaciona al html con el css-->
+	<link  rel="stylesheet" type="text/css" href="css/styles.css">	
+	<!--Relaciona al html con el HTML.CSS.
+		Ojo: Primero va la hoja de estilos general-->
+		<link  rel="stylesheet" type="text/css" href="css/Resume.css">
+
+		<!--Google Fonts: Para cambiar la tipografia-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@500&display=swap" rel="stylesheet">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+		<!--Font del indice interno-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+
+		<!--Font del cuerpo-->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300&family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+
+
+		<!--Shortcut icon-->
+		<link rel="shortcut icon" href="img/Icono_resume.png">
+
+		<!-- Nombre de la p+agina --> 
+		<title>Resume</title>	
+
+
+	</head>
+	<body>
+		<!--Header-->
+		<header>
+
+			<!--Nav-->
+			<nav> 
+				<ul>
+					<!-- "miTrabajo.html" -> Para redireccionar a otra pagina -->
+					<li><a href="AboutMe.html">Acerca de mi</a></li>
+					<li><a href="Resume.html">Resume</a></li>
+					<li><a href="Contacto.html">Contacto</a></li>
+					<li><a href="Mas.html">Más sobre mí</a></li>
+				</ul>
+			</nav>
+
+			<!-- Logo -->
+			<!--Las imagenes las guardamos dentro de un contenerdor y así, solo se mofica el tamaño del contenedor y no la imaen, siendo así más sencillo manipularlas-->
+			<div class="logo">
+				<a href="index.html">
+					<!--svg logo-->
+					<!--comando para identar: ctrl+ship+p -> Indentation:Reident Lines-->
+					<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-box" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+						<polyline points="12 3 20 7.5 20 16.5 12 21 4 16.5 4 7.5 12 3" />
+						<line x1="12" y1="12" x2="20" y2="7.5" />
+						<line x1="12" y1="12" x2="12" y2="21" />
+						<line x1="12" y1="12" x2="4" y2="7.5" />
+					</svg>
+				</a>
+
+
+			</div>
+
+		</header>
+
+
+		<main>
+			<section class="resume section-indice">
+				<h1>Selecciona que te gustaría conocer: <br></h1>
+
+				<div class="indice__item">
+					<a href="#FormacionAcad">Formacion Academica</a>
+				</div>
+
+				<div class="indice__item">
+					<a href="#Certificados">Certificados</a>
+				</div>
+
+				<div class="indice__item">
+					<a href="#Experiencia">Experiencia</a>
+				</div>
+			</section>
+
+
+			<!-- <a name="*NOMBRE_QUE_DIMOS_ANTES*"></a>-> Para redireccionar dentro de la misma pagina -->
+			<a name="FormacionAcad"></a>
+			<section class="resume section-FormacionAcad">
+				<div class="FormacionAcad__titulo">
+					<h1>Formacion Academica</h1>
+				</div>
+				<div class="FormacionAcad__texto">
+					<h2>UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO <br></h2>
+					<h3>Ingeniería en computación | 2020 - Actualidad <br><br></h3>
+					<p>Actualmente me encuentro estudiando mi 2do semestre en la Facultad de Estudios Superiores Aragón, a la cual entre por pase reglamentado.</p>
+				</div>
+
+				<div class="FormacionAcad__img">
+					<img src="https://www.gaceta.unam.mx/wp-content/uploads/2020/10/201008-Gob2-des-FES-Aragon.jpg" height="300 px">
+				</div>
+			</section>
+
+			<a name="Certificados"></a>
+			<section class="resume section-Certificados">
+				<div class="Certificados__titulo">
+					<h1>Certificados</h1>
+				</div>
+
+				<div class="Certificados__imgLinea">
+					<img src="img/lineaPunteada.png" alt="">
+				</div>
+
+
+				<div class="Certificados__item">
+					<div class="Certificados__item__img">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-aperture" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<circle cx="12" cy="12" r="9" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(72 12 12)" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(144 12 12)" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(216 12 12)" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(288 12 12)" />
+						</svg>
+					</div>
+
+					<div class="Certificados__item__texto">
+						<h3>ROBÓTICA APLICADA</h3>
+						<p>Secretaría del Trabajo y Previsión Social (STPS) | 2021</p>
+					</div>
+				</div>
+
+
+				<div class="Certificados__item--2">
+					<div class="Certificados__item__img">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-aperture" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<circle cx="12" cy="12" r="9" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(72 12 12)" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(144 12 12)" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(216 12 12)" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(288 12 12)" />
+						</svg>
+					</div>
+
+					<div class="Certificados__item__texto">
+						<h3>"INTRODUCCIÓN A LA PROGRAMACIÓN"</h3>
+						<p>PROTECO (Programa de Tecnología en Cómputo) | 2020</p>
+					</div>	
+				</div>
+
+
+
+				<div class="Certificados__item--2">
+					<div class="Certificados__item__img">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-aperture" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<circle cx="12" cy="12" r="9" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(72 12 12)" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(144 12 12)" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(216 12 12)" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(288 12 12)" />
+						</svg>
+					</div>
+
+					<div class="Certificados__item__texto">
+						<h3>"JAVA BÁSICO"</h3>
+						<p>PROTECO (Programa de Tecnología en Cómputo) | 2021</p>
+					</div>
+				</div>
+
+
+				<div class="Certificados__item--2">
+					<div class="Certificados__item__img">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-aperture" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<circle cx="12" cy="12" r="9" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(72 12 12)" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(144 12 12)" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(216 12 12)" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(288 12 12)" />
+						</svg>
+					</div>
+
+					<div class="Certificados__item__texto">
+						<h3>"DISEÑO ENFOCADO A IMPRESIÓN EN 3D"</h3>
+						<p>ARACT (Asociación de Robótica Aplicada y Ciencias de la Tecnología) | 2021</p>
+					</div>
+				</div>
+
+
+				<div class="Certificados__item--2">
+					<div class="Certificados__item__img">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-aperture" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<circle cx="12" cy="12" r="9" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(72 12 12)" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(144 12 12)" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(216 12 12)" />
+							<line x1="3.6" y1="15" x2="14.15" y2="15" transform="rotate(288 12 12)" />
+						</svg>
+					</div>
+
+					<div class="Certificados__item__texto">
+						<h3>"DISEÑO WEB BÁSICO"</h3>
+						<p>PROTECO (Programa de Tecnología en Cómputo) | Actualidad</p>
+					</div>
+				</div>
+			</section>
+
+			<a name="Experiencia"></a>
+			<section class="section-Experiencia">
+				<div class="Experiencia__titulo">
+					<h1>Experiencia</h1>
+				</div>
+
+				<div class="Experiencia__item">
+					<div class="Experiencia__item__imgNum">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-1" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<path d="M12 16v-8l-2 2" />
+							<rect x="4" y="4" width="16" height="16" rx="2" />
+						</svg>
+					</div>
+
+					<div class="Experiencia__item__img">
+						<img src="img/feriaDeCienc.png" alt="">
+					</div>
+
+					<div class="Experiencia__item__texto">
+						<h3>XXVIII CONCURSO UNIVERSITARIO FERIA DE LAS CIENCIAS, LA TECNOLOGÍA Y LA INNOVACIÓN <br></h3>
+						<p>UNAM. Proyecto de robótica | 2019 - 2020</p>
+					</div>
+
+				</div>
+
+				<div class="Experiencia__item">
+					<div class="Experiencia__item__imgNum--dos">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-square-2" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<path d="M10 10a2 2 0 1 1 4 0c0 .591 -.417 1.318 -.816 1.858l-3.184 4.143l4 -.001" />
+							<rect x="4" y="4" width="16" height="16" rx="2" />
+						</svg>
+					</div>
+
+					<div class="Experiencia__item__video">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/zjHK-ZM1dkE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					</div>
+
+					<div class="Experiencia__item__texto">
+						<h3>UNAM. AERO DESIGN<br></h3>
+						<p>Actualidad</p>
+					</div>
+
+				</div>
+			</section-Experiencia>
+
+
+
+		</main>
+
+
+		<!--Footer-->
+		<footer>
+			<!--Metodologia BEN: Utilizamos class-->
+			<ul class="footer__redes-sociales">
+				<!--Facebook-->
+				<li>
+					<!-- target="_blank" ->  Me parece que abre esa redireccion en una nueva pestaña-->
+					<a href="https://www.facebook.com/" target="_blank">
+						<svg xmlns="http://www.w3.org/2000/svg%22 class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+						</svg>
+					</a>
+				</li>
+
+				<!--Instagram-->
+				<li>
+					<a href="https://www.instagram.com/" target="_blank">
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<rect x="4" y="4" width="16" height="16" rx="4" />
+							<circle cx="12" cy="12" r="3" />
+							<line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+						</svg>
+					</a>
+				</li>
+
+
+				<!--Twitter-->
+				<li>
+					<a href="https://twitter.com/?lang=en" target="_blank">
+						<svg xmlns="http://www.w3.org/2000/svg%22 class="icon icon-tabler icon-tabler-brand-twitter" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+							<path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+						</svg>
+					</a>
+				</li>
+
+			</ul>
+		</footer>
+
+	</body>
+
+	</html>

@@ -1,0 +1,141 @@
+* {
+	margin: 0px;
+	padding: 0px;
+  /*Con la siguiente linea, lo que le decimos al programa es que una vez que le damos un tamaño a la caja 
+  independientemente de la cantidad de borde que demos, siempre conserve su medida (O sea que no se le sume al tamaño de 
+  la caja)*/
+  box-sizing: border-box;
+}
+
+
+
+/*Quitar a las a el cambio de color cuando se presionen, o sea que no se note que es un hipervinculo*/
+a{
+	text-decoration: none; /*Le quita las lineas de hipervinculo*/
+	color: black; /*Le asigna un color*/
+}
+
+/*a:hover : Pseudo-clase que hace que se realice determinada acción cuando el puntero pasa encima del elemento (ellos)*/
+a:hover{
+	border-bottom: solid #ED1250;/*Subraya de ese color el elemento*/
+	/*font-weight: bolder;   Pone en negritas el elemento*/
+}
+
+
+
+
+
+
+body {
+	background-color: #E7EAF6; /*Color del fondo*/
+	font-family: 'STIX Two Text', serif; /*Cambia la tipografía: El primero desde google fonts, la 2da si no encuentra la 1ra*/
+}
+
+
+
+
+
+
+/*Header: Contiene -> nav, .logo, nav li*/
+header{
+	background-color: #87C0CD; /*Color fondo*/
+
+	/*Padding: Da un espacio respecto a lo de adentro. Haciendo más grueso el header*/
+	padding: 20px; 
+	position: fixed; /*Fija el header respecto a lo que se idique acontinuación, de modo que aunque se baje en la página, siempre permanecerá fijo al inicio*/
+	top: 0px;
+	width: 100%;
+	z-index: 1; /*Sobrepone esta seccion. Donde el n numero mayor que se ponga será eol que quede hasta delante. Y entre menos numeros se pongan iran quedando atrás*/
+	font-family: 'Montserrat', sans-serif;
+		font-size: 15px;
+		font-weight: bolder;
+}
+
+nav { 
+		/*El nav es el contenedor de las listas de hiperbinvulos, así que: Si convertimos el nav en inline-block, solo 
+		ocupará el tamaño de la lista y así subiría el logo*/
+		display: inline-block; /*Lo convierte de elemento de bloque a elemento de linea:  
+		Coloca los elementos a lado del otro*/
+		padding: 2px;
+	}
+
+	.logo{
+		display: inline-block; /*Coloca los elementos de lista a lado del otro*/
+
+		/*Propiedad position:  Permite mover los elementos, pero debe tomarse en cuenta sus valores (static, absolute, relative, fixed y float)*/
+		position: absolute; /*Absoluto respecto a toda la pagina*/
+		top: 12px;
+		right: 2.2%; /*1%*/
+	}
+
+	nav li{ 
+		display: inline-block;  /*Coloca los elementos de lista a lado del otro*/
+		font-family: 'Montserrat', sans-serif;
+		font-size: 15px;
+		font-weight: bolder;
+
+		/*Margin respecto a lo de afuera, padding respecto a lo de adentro*/
+		margin-right: 22px; /*Le da una separación a los elementos de la lista*/
+		/*font-family: 'Montserrat', sans-serif;*/
+
+	}
+
+
+
+
+
+/*Footer*/
+footer{
+	background-color: #87C0CD;
+	position: fixed;
+	width: 100%;
+	bottom: 0px;
+	padding: 10px;/*Margin interno con los iconos, solo da espacio*/
+}
+
+	.footer__redes-sociales {
+		display: inline-block;
+		position: relative;
+		left: 16px;
+	}
+
+	.footer__redes-sociales li{
+		margin-right: 5vw;
+		display: inline-block;
+	}
+
+
+
+
+
+
+
+/*Main*/
+main{ /*Main al final tambien es una caja*/
+	/*height: 200vh; Si le quitamos esta medida, el contenedor main se irá adaptando a su contenido*/
+	/*border: solid greenyellow;*/
+	margin-top: 12vh; /*Separá el main del Header, para que ese último no lo tape, pues al darle position:  fixed en la linea 52, se posiciono al frente*/
+	margin-bottom: 12vh; /*Separá el main del Footer, puesto que sucede lo mismo que en el paso anterior*/
+}
+
+		/*p{
+			border: solid blue;
+			font-size:  0.8 em; /*em -> Medida relativa de los textos, en relación al padre (Analogo al vh)*
+		}*/
+
+
+	/*Los pixeles son medidas absolutas, y el vh relativas*/
+
+
+
+
+
+/*Media Queries/
+	/*Permiten cambiar ciertas propiedades de acuerdo al tamaño del dispositivo*/
+	/*Sintaxis:  /
+@media only screen and (min-width:  992px){
+	body{
+		background-color: #4C4C6D;
+	}
+}*/
+
